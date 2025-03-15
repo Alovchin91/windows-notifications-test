@@ -1,0 +1,14 @@
+[package]
+name = "windows-notifications-test"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+windows = { version = "0.60.0", features = [
+    "Data_Xml_Dom",
+    "UI_Notifications",
+    "Win32_System_Com",
+    "Win32_UI_Notifications",
+    "Win32_UI_Shell",
+] }
+windows-core = "0.60.1"
